@@ -19,6 +19,6 @@ RUN npm install hubot-google-translate --save
 
 ADD hubot-scripts.json /hubot/
 ADD external-scripts.json /hubot/
-ADD scripts/appannie.coffee /hubot/scripts/
+ADD scripts/n42-appannie.coffee /hubot/scripts/
 
 CMD bin/hubot -a slack
