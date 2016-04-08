@@ -20,3 +20,11 @@ docker run -d \
   -e ANNIE_COUNTRIES=KR \
   n42corp/hubot-slack
 ```
+
+## Usage
+
+```
+snow help
+```
+
+채널에 초대해서 말 걸었을때만 응답 함. 다이렉트 메시지에는 응답하지 않음.
