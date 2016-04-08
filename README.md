@@ -12,6 +12,7 @@ docker build -t n42corp/hubot-slack .
 docker run -d \
   --name hubot-slack \
   -e HUBOT_SLACK_TOKEN=xxx \
+  -e HUBOT_SLACK_EXIT_ON_DISCONNECT=true \
   -e ANNIE_TOKEN=xxx \
   -e ANNIE_ACCOUNT_ID_IOS=xxx \
   -e ANNIE_ACCOUNT_ID_ANDROID=xxx \
